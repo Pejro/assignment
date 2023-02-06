@@ -9,4 +9,5 @@ tmp
 .map
 .project
 .settings
+.vscode
 Thumbs.db
