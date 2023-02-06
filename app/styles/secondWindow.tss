@@ -1,0 +1,16 @@
+"Window" : {
+    backgroundColor: "#555"
+}
+"#view_content" : {
+    height: Ti.UI.SIZE,
+    layout: "vertical"
+}
+"#lbl" : {
+    left: 10
+}
+"#tf" : {
+    left: 10,
+    right: 10,
+    borderColor: "#000",
+    borderWidth: 1
+}

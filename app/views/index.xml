@@ -1,0 +1,9 @@
+<Alloy>
+    <Window layout="vertical">
+        <ImageView id="img1"/>
+        <Label text='Welcome to login page'/>
+        <TextField id="login" width="250" height="45" />
+        <TextField id="password" width="250" height="45" passwordMask='true'/>
+        <Button id="btn1" title="LOGIN"/>
+    </Window>
+</Alloy>

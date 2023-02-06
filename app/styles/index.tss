@@ -1,0 +1,13 @@
+"Window" : {
+    backgroundColor: "white"
+}
+"#img1" : {
+    top: 10,
+    width: 300,
+    height: 300,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Deseret_small_long_O.svg/932px-Deseret_small_long_O.svg.png"
+}
+"#btn1" : {
+    bottom: 10,
+	backgroundColor: 'black'
+}

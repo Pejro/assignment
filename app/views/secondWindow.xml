@@ -1,0 +1,19 @@
+<Alloy>
+    <TabGroup backgroundColor="white" swipeable='false'>
+        <Tab id="tab1" title="Tab 1">
+            <Window id="win1" title="Tab 1">
+                <ListView id="dataList" onItemclick='handleItemClick'>
+                <SearchView ns="Ti.UI.Android" class="search" platform="android" backgroundColor='white'/>
+                    <ListSection name="data" />
+                </ListView>
+            </Window>
+        </Tab>
+        <Tab id="tab2" title="Tab 2">
+            <Window id='win2' layout="vertical" backgroundColor='white'>
+                    <Label>Patrik Repasky</Label>
+                    <Label onClick='callNumber'>+421910460374</Label>
+                    <Label onClick='openEmail'>repasky.patrik@gmail.com</Label>
+            </Window>
+        </Tab>
+    </TabGroup>
+</Alloy>
